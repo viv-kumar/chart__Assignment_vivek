@@ -1,0 +1,36 @@
+body {
+  margin: 8rem auto;
+  height: 100vh;
+}
+
+#chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  
+}
+
+.start {
+  text-align: left;
+  margin-left: 1rem;
+  background: rgb(254, 243, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 243, 245, 1) 0%,
+    rgba(247, 242, 253, 1) 100%
+  );
+  border-left: 4px solid #ff6868;
+  border-radius: 5px;
+  padding: 10px 5px;
+  color: #1e154e;
+}
+
+span {
+  color: #ff6b68;
+}
+hr{
+    color: green;
+   position: relative;
+   top: 80px;
+}
